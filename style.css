@@ -78,6 +78,7 @@ margin-bottom: 5px;
 
 
 .bloc2{
+   
     background-image:url("image/img.jpg");
     height:250px; 
     
@@ -97,6 +98,7 @@ margin-bottom: 5px;
 }
 
 .bloc5{
+     overflow: hidden;
 background-image:url("image/image5.jpg");
 height:250px;
     
@@ -125,72 +127,26 @@ height:250px;
     background-image:url("image/image6.jpg");
     height: 250px;
 }
-.text{
-    position: relative;
-    top:95%;
-    font-size: 20px;
-    color:black;
-    background-color: rgba(255,255,255,0.8); 
-    
-}
+
 section p:hover{
     background-color: #FFFFFF;  
 }
-.text1{
-        position: relative;
-    top:78%;
-    font-size: 20px;
-    color:black;
-    background-color: rgba(255,255,255,0.8);
+
+section p{
+   font-size: 20px;
+   color:black;
+   background-color: rgba(255,255,255,0.8);
 }
-.text2{
-         position: relative;
-    top:88%;
-    font-size: 20px;
-    color:black;
-    background-color: rgba(255,255,255,0.8);
+
+.bloc{
+position: relative;
 }
-.text3{
-    position: relative;
-    top:78%;
-    font-size: 20px;
-    color:black;
-    background-color: rgba(255,255,255,0.8);
-}
-.text4{
-     position: relative;
-    top:89%;
-    font-size: 20px;
-    color:black;
-    background-color: rgba(255,255,255,0.8);
-}
-.text5{
-     position: relative;
-    top:77%;
-    font-size: 20px;
-    color:black;
-    background-color: rgba(255,255,255,0.8);
-}
-.text6{
-     position: relative;
-    top:77%;
-    font-size: 20px;
-    color:black;
-    background-color: rgba(255,255,255,0.8);
-}
-.text7{
-     position: relative;
-    top:66%;
-    font-size: 20px;
-    color:black;
-    background-color: rgba(255,255,255,0.8);
-}
-.text8{
-     position: relative;
-    top:77%;
-    font-size: 20px;
-    color:black;
-    background-color: rgba(255,255,255,0.8);
+
+.bloc p{
+   width: 100%;
+   margin-bottom: 0px;
+position: absolute;
+bottom: 0px;
 }
 .lien{
     color:white;
@@ -211,4 +167,12 @@ p.text-footer{
 
 .footer li{
     margin: 5px;
+}
+
+.twitter-nasa{
+    overflow: hidden;
+}
+twitter-timeline{
+    margin-left: auto;
+    margin-right: auto;
 }
